@@ -1,15 +1,13 @@
 # Keerthi Portfolio Frontend
 
-A responsive personal portfolio for Keerthi N. The site presents profile information, skills, work experience, education, projects, and achievements, with content loaded from the portfolio API. It includes light and dark themes, responsive navigation, and links for contacting Keerthi and viewing a resume.
+A responsive personal portfolio for Keerthi N. Profile information, skills, work experience, education, projects, and achievements are stored in `src/data/portfolioData.json` and loaded locally without API calls. The site includes light and dark themes, responsive navigation, and contact and resume links.
 
 ## Technology
 
 - React 18 and TypeScript
 - Vite 6 for development and production builds
-- Axios for HTTP requests
 - Lucide React for icons
-- Node.js static server and API proxy in `server.cjs`
-- Azure Static Web Apps configuration in `swa-cli.config.json`
+- GitHub Actions for GitHub Pages deployment
 
 ## Requirements
 
@@ -18,33 +16,14 @@ A responsive personal portfolio for Keerthi N. The site presents profile informa
 
 ## Setup
 
-1. Install dependencies:
+Install dependencies and start the development server:
 
-   ```bash
-   npm install
-   ```
+```bash
+npm ci
+npm run dev
+```
 
-2. Create a local environment file from the example:
-
-   ```bash
-   cp .env.example .env
-   ```
-
-   PowerShell equivalent:
-
-   ```powershell
-   Copy-Item .env.example .env
-   ```
-
-   `VITE_API_BASE_URL` defaults to `/api` when it is not set. The Vite development server proxies `/api` to the portfolio backend. The example points directly to `https://keerthiportfolioapi.azurewebsites.net/api`.
-
-3. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-   Open the URL printed by Vite, normally `http://localhost:5173`.
+Open the URL printed by Vite, normally `http://localhost:5173`.
 
 ## Build and Preview
 
@@ -60,21 +39,12 @@ Preview the generated `dist` build locally:
 npm run preview
 ```
 
-## API
+## GitHub Pages Deployment
 
-The frontend uses `VITE_API_BASE_URL` as its API base URL, defaulting to `/api`. Each endpoint below uses the HTTP `GET` method and returns JSON.
+The workflow in `.github/workflows/deploy.yml` builds the site and deploys it whenever a commit is pushed to `main`.
 
-| Endpoint | Data |
-| --- | --- |
-| `/bio` | Profile and contact information |
-| `/skills` | Skills and categories |
-| `/experience` | Work experience |
-| `/education` | Education history |
-| `/projects` | Portfolio projects |
-| `/achievements` | Achievements |
+1. Create a public repository on GitHub.
+2. Point this local repository's `origin` remote to the new repository and push the `main` branch.
+3. In the repository settings, open **Pages** and set the build and deployment source to **GitHub Actions**.
 
-With the example backend URL, the full endpoint for bio is `https://keerthiportfolioapi.azurewebsites.net/api/bio`; the other endpoints follow the same base URL and paths above. During local development, Vite proxies requests from `/api` to `https://keerthiportfolioapi.azurewebsites.net`.
-
-## Azure Static Web Apps
-
-The included `swa-cli.config.json` sets the app location to the repository root, the build output to `dist`, the build command to `npm run build`, and the development server to `npm run dev`. Configure `VITE_API_BASE_URL` in the Static Web Apps application settings if the deployed frontend should use a different API base URL.
+After the workflow completes, the site will be available at `https://<OWNER>.github.io/<REPOSITORY>/`. The relative Vite base keeps assets working under any repository name.
