@@ -1,0 +1,190 @@
+{
+  "bio": {
+    "bioID": 1,
+    "fullName": "Keerthi N",
+    "shortName": "Keerthi",
+    "title": "Dotnet Developer",
+    "email": "Keerthi.neory@gmail.com",
+    "phone": "-9663666985",
+    "summary": "Experienced .NET and Full-Stack Developer with over 9 years in building Windows, Web, Android, iOS, and Python applications. Skilled in Generative AI solutions using local LLM models and Ollama server. Proficient across all phases of SDLC.",
+    "aboutMe": "Experienced .NET and Full-Stack Developer with over 9 years in building Windows, Web, Android, iOS, and Python applications. Skilled in Generative AI solutions using local LLM models and Ollama server. Proficient across all phases of SDLC.",
+    "linkedIn": "https://linkedin.com/in/keerthi-neory",
+    "gitHub": "https://github.com/keerthi",
+    "portfolioURL": "https://keerthi.dev",
+    "resumeUrl": "https://keerthi.dev",
+    "location": "Bangalore, India"
+  },
+  "skills": [
+    { "id": 1, "name": "C#.NET", "category": "Backend", "proficiency": 92 },
+    { "id": 2, "name": "ASP.NET MVC", "category": "Backend", "proficiency": 90 },
+    { "id": 3, "name": "Web API", "category": "Backend", "proficiency": 88 },
+    { "id": 4, "name": "WCF Services", "category": "Backend", "proficiency": 80 },
+    { "id": 5, "name": "LINQ to SQL", "category": "Backend", "proficiency": 82 },
+    { "id": 6, "name": "Python", "category": "Programming", "proficiency": 82 },
+    { "id": 7, "name": "C#", "category": "Programming", "proficiency": 92 },
+    { "id": 8, "name": "Swift", "category": "Programming", "proficiency": 65 },
+    { "id": 9, "name": "Java", "category": "Programming", "proficiency": 58 },
+    { "id": 10, "name": "T-SQL", "category": "Database", "proficiency": 86 },
+    { "id": 11, "name": "HTML5", "category": "Frontend", "proficiency": 84 },
+    { "id": 12, "name": "CSS", "category": "Frontend", "proficiency": 82 },
+    { "id": 13, "name": "Bootstrap", "category": "Frontend", "proficiency": 76 },
+    { "id": 14, "name": "JavaScript", "category": "Frontend", "proficiency": 78 },
+    { "id": 15, "name": "jQuery", "category": "Frontend", "proficiency": 76 },
+    { "id": 16, "name": "AJAX", "category": "Frontend", "proficiency": 72 },
+    { "id": 17, "name": "SQL Server", "category": "Database", "proficiency": 88 },
+    { "id": 18, "name": "MySQL", "category": "Database", "proficiency": 68 },
+    { "id": 19, "name": "SQLite", "category": "Database", "proficiency": 60 },
+    { "id": 20, "name": "Visual Studio", "category": "Tools", "proficiency": 90 },
+    { "id": 21, "name": "VS Code", "category": "Tools", "proficiency": 88 },
+    { "id": 22, "name": "Android Studio", "category": "Tools", "proficiency": 72 },
+    { "id": 23, "name": "Xcode", "category": "Tools", "proficiency": 64 },
+    { "id": 24, "name": "PyCharm", "category": "Tools", "proficiency": 74 },
+    { "id": 25, "name": "GitHub", "category": "DevOps", "proficiency": 85 },
+    { "id": 26, "name": "Bitbucket", "category": "DevOps", "proficiency": 70 },
+    { "id": 27, "name": "Ollama", "category": "AI / ML", "proficiency": 80 },
+    { "id": 28, "name": "Local LLM Models", "category": "AI / ML", "proficiency": 82 },
+    { "id": 29, "name": "FastAPI", "category": "AI / ML", "proficiency": 78 },
+    { "id": 30, "name": "MCP Server", "category": "AI / ML", "proficiency": 80 }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "company": "D2L Pharma Research Solutions Pvt. Ltd.",
+      "role": "Software Engineer",
+      "startDate": "2023-01-01",
+      "endDate": null,
+      "description": "Built generative AI desktop apps, MCP server, and integrated Ollama with local LLMs.",
+      "location": "Bangalore, India",
+      "logoUrl": "/logos/d2l.png"
+    },
+    {
+      "id": 2,
+      "company": "Grant Thornton India LLP",
+      "role": "Consultant",
+      "startDate": "2021-02-01",
+      "endDate": "2022-07-31",
+      "description": "Developed ASP.NET MVC modules, APIs, and optimized performance for KOL management.",
+      "location": "Bangalore, India",
+      "logoUrl": "/logos/grant-thornton.png"
+    },
+    {
+      "id": 3,
+      "company": "Neory Technologies Pvt. Ltd.",
+      "role": "Software Engineer",
+      "startDate": "2016-03-01",
+      "endDate": "2020-11-30",
+      "description": "Developed Windows, Web, Android, and iOS applications across multiple domains.",
+      "location": "Bangalore, India",
+      "logoUrl": "/logos/neory.png"
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "institution": "GATES Institute of Technology, Gooty, Anantapur, Andhra Pradesh",
+      "degree": "Bachelor of Engineering",
+      "field": "Electrical and Electronics Engineering",
+      "startDate": "2011-07-01",
+      "endDate": "2015-05-31",
+      "description": "Graduated with 63.4%"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "EnKEY Platform",
+      "description": "Generative AI desktop app with chat UI, multi-model selection, and real-time streaming. Integrated Ollama with local LLMs for offline inference.",
+      "technologies": ["NET MAUI", "Python", "FastAPI", "Ollama", "SQL Server"],
+      "startDate": "2023-01-01",
+      "endDate": "",
+      "liveUrl": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": 2,
+      "title": "ORION",
+      "description": "ASP.NET MVC modules for expert management and reporting. Built APIs for Android/iOS apps with RBAC and secure authentication.",
+      "technologies": ["ASP.NET MVC", "C#", "Web API", "SQL Server", "Android", "iOS"],
+      "startDate": "2021-02-01",
+      "endDate": "2022-07-31",
+      "liveUrl": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": 3,
+      "title": "KOLECT 2.0",
+      "description": "Web app for KOL profile management, segmentation, and events. Built Android/iOS apps with EF integration.",
+      "technologies": ["ASP.NET MVC", "C#", "Web API", "SQL Server", "Android", "iOS"],
+      "startDate": "2020-01-01",
+      "endDate": "2020-11-30",
+      "liveUrl": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": 4,
+      "title": "Police IT",
+      "description": "Crime, law & order, traffic, and training digitization modules. Provided production support and automated scripts.",
+      "technologies": ["VB.NET", "ASP.NET", "T-SQL", "Crystal Reports"],
+      "startDate": "2018-01-01",
+      "endDate": "2020-11-30",
+      "liveUrl": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": 5,
+      "title": "Income Expenses",
+      "description": "Windows app for managing real estate income & expenditure with EMI schedules and agreements.",
+      "technologies": ["C#", "T-SQL", "OLEDB"],
+      "startDate": "2017-01-01",
+      "endDate": "2017-12-31",
+      "liveUrl": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": 6,
+      "title": "Sales & Inventory (POS ERP)",
+      "description": "POS modules for cashiering, product tracking, and invoicing. Automated stock and sales reporting.",
+      "technologies": ["VB.NET", "EF", "T-SQL"],
+      "startDate": "2016-03-01",
+      "endDate": "2016-12-31",
+      "liveUrl": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": 7,
+      "title": "SMS – School Management System",
+      "description": "Modules for student, fee, attendance, and employee management. Automated reports with Crystal Reports.",
+      "technologies": ["VB.NET", "SQL Server"],
+      "startDate": "2016-03-01",
+      "endDate": "2016-12-31",
+      "liveUrl": "",
+      "sourceUrl": ""
+    },
+    {
+      "id": 8,
+      "title": "NexCom – E-Commerce Web Application",
+      "description": "ASP.NET MVC web app for product catalogs, search & filtering, and WCF services for mobile integration.",
+      "technologies": ["ASP.NET MVC", "WCF", "SQL Server"],
+      "startDate": "2016-03-01",
+      "endDate": "2016-12-31",
+      "liveUrl": "",
+      "sourceUrl": ""
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1,
+      "title": "Generative AI Solutions",
+      "description": "Developed MCP Server for RAG, NL2SQL, and model orchestration.",
+      "date": "2023-06-01",
+      "issuer": "D2L Pharma"
+    },
+    {
+      "id": 2,
+      "title": "KOL Management Platforms",
+      "description": "Delivered ORION and KOLECT 2.0 platforms with secure APIs and mobile integration.",
+      "date": "2021-06-01",
+      "issuer": "Medtronic"
+    }
+  ]
+}
